@@ -70,7 +70,8 @@ I also like validating software behavior directly on real hardware.
 
 ## Projects
 
-### 🤖 Robotics Simulation
+<details>
+<summary><strong>🤖 Robotics Simulation</strong></summary>
 
 #### • [Yertle Quadruped Robot](https://github.com/MainForm/yertle) · In Development
 
@@ -81,9 +82,10 @@ I also like validating software behavior directly on real hardware.
 A fork-based quadruped robotics project currently focused on developing and
 testing gait simulation in PyBullet before integration with physical hardware.
 
----
+</details>
 
-### 🖥️ MPU Projects — ARM Cortex-A
+<details>
+<summary><strong>🖥️ MPU Projects — ARM Cortex-A</strong></summary>
 
 #### • [BaremetalOS](https://github.com/MainForm/BaremetalOS) · In Development
 
@@ -109,9 +111,10 @@ A PetaLinux build environment for the Zybo Z7-10. The project includes a
 board-specific Yocto layer, systemd, Docker support, Wi-Fi support, kernel and
 device-tree configuration, and an SD-card image deployment workflow.
 
----
+</details>
 
-### ⚙️ MCU Projects — ARM Cortex-M
+<details>
+<summary><strong>⚙️ MCU Projects — ARM Cortex-M</strong></summary>
 
 #### • [STM32 On-Device MNIST Recognition](https://github.com/MainForm/STM32_DISC_MNIST_on_device)
 
@@ -135,9 +138,10 @@ the contents of files stored on the card.
 A C++ driver for controlling an HD44780-compatible character LCD through a
 PCF8574 I2C backpack using the STM32 HAL.
 
----
+</details>
 
-### ⚡ MCU Projects — AVR
+<details>
+<summary><strong>⚡ MCU Projects — AVR</strong></summary>
 
 #### • [Arduino UNO R3 KiCad Design](https://github.com/MainForm/MyArduinoR3_KiCAD)
 
@@ -147,9 +151,10 @@ A two-layer Arduino UNO R3-compatible board designed from schematic capture
 through PCB layout and manufacturing Gerber output. The design includes power
 selection, USB-to-serial communication, protection circuits, and board headers.
 
----
+</details>
 
-### 🪟 Desktop Applications
+<details>
+<summary><strong>🪟 Desktop Applications</strong></summary>
 
 #### • [Chess Game in MFC](https://github.com/MainForm/ChessGameInMFC)
 
@@ -163,9 +168,12 @@ A desktop chess game implemented in C++ using Microsoft Foundation Classes.
 
 A desktop Minesweeper game implemented in C using the native Windows API.
 
+</details>
+
 ## Templates & Libraries
 
-### 🧱 Embedded Linux Templates
+<details>
+<summary><strong>🧱 Embedded Linux Templates</strong></summary>
 
 - **[Raspberry Pi 4 Qt 6 Yocto Template](https://github.com/MainForm/yocto_rpi4_qt6_template)** — A Yocto-based 64-bit Raspberry Pi 4 image template with Qt 6 and a custom application layer.
 - **[Raspberry Pi 4 Yocto Template](https://github.com/MainForm/yocto_rpi4_template)** — A reusable Yocto build environment using Poky, OpenEmbedded, and the Raspberry Pi BSP layer.
@@ -174,23 +182,28 @@ A desktop Minesweeper game implemented in C using the native Windows API.
 - **[Raspberry Pi 4 Buildroot Template](https://github.com/MainForm/Buildroot_rpi4_template)** — A 64-bit Raspberry Pi 4 Buildroot project organized as a reusable `BR2_EXTERNAL` tree.
 - **[AMD EDF Zybo Z7-10 Workspace](https://github.com/MainForm/AMD-EDF_zybo-z7-10)** — A Yocto build workspace combining AMD EDF with a custom Zybo Z7-10 board-support layer.
 
----
+</details>
 
-### 🔧 MCU Build Templates
+<details>
+<summary><strong>🔧 MCU Build Templates</strong></summary>
 
 - **[AVR Makefile Template](https://github.com/MainForm/AVR-makefile-template)** — A Makefile-based build, upload, and JTAG debugging template for 8-bit AVR microcontrollers.
 
----
+</details>
 
-### 🐧 Linux Device Drivers
+<details>
+<summary><strong>🐧 Linux Device Drivers</strong></summary>
 
 - **[LCD1602 I2C Linux Kernel Module](https://github.com/MainForm/linux_module_lcd1602_i2c)** — A Raspberry Pi 4 character device driver for controlling an LCD1602 through a PCF8574-compatible I2C backpack. It exposes `/dev/lcd1602` for text output and display control through `write()` and `ioctl()`.
 
----
+</details>
 
-### 📦 STM32 Device Libraries
+<details>
+<summary><strong>📦 STM32 Device Libraries</strong></summary>
 
 - **[STM32 Character LCD](https://github.com/MainForm/STM32_CharacterLCD)** — A reusable character LCD library for STM32 projects.
 - **[STM32 ILI9341 Driver](https://github.com/MainForm/STM32_ILI9341_Driver)** — A C++20 display driver for the STM32F429I-DISC1 onboard ILI9341 TFT LCD.
 - **[STM32 STMPE811 Driver](https://github.com/MainForm/STM32_STMPE811_Driver)** — A reusable STMPE811 touchscreen controller driver for STM32 projects.
 - **[STM32 MPU9250](https://github.com/MainForm/STM32_MPU9250)** · **In Development** — An STM32 device library for the MPU9250 9-axis motion sensor.
+
+</details>
