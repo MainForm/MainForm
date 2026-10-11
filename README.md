@@ -170,7 +170,7 @@ A desktop Minesweeper game implemented in C using the native Windows API.
 
 </details>
 
-## Board Support Pacages
+## Board Support Packages
 
 <details>
 <summary><strong>🔩 Yocto Project</strong></summary>
