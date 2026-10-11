@@ -170,6 +170,16 @@ A desktop Minesweeper game implemented in C using the native Windows API.
 
 </details>
 
+## Board Support Pacages
+
+<details>
+<summary><strong>🔩 Yocto Project</strong></summary>
+
+- **[Kria KV260 BSP Layer Template](https://github.com/MainForm/meta-kv260_template)** — An AMD EDF Yocto layer template for Kria KV260 with SDT-generated machine configuration, PL firmware packaging, and a custom image recipe.
+- **[Zybo Z7-10 BSP Layer](https://github.com/MainForm/meta-zybo-z7-10)** — A Yocto/PetaLinux board-support layer for Zybo Z7-10 with machine configuration, hardware handoff, U-Boot customization, device-tree extensions, and kernel metadata.
+
+</details>
+
 ## Templates & Libraries
 
 <details>
